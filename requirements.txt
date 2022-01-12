@@ -4,7 +4,7 @@ hachoir
 numpy
 Pillow
 requests
-yt_dlp
+yt-dlp
 olefile
 filetype
 tldextract
