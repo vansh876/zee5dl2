@@ -11,6 +11,6 @@ tldextract
 motor
 aiofiles
 dnspython
-pyrogram==1.3.2
+pyrogram
 tgcrypto
 psutil
