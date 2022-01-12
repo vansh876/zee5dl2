@@ -31,7 +31,7 @@ from pyrogram.errors import UserNotParticipant
 from helper_funcs.ran_text import random_char
 
 
-@Clinton.on_message(filters.private & filters.regex(pattern=".*zee5.*"))
+@Clinton.on_message(filters.private & filters.regex(pattern=".*playlist?list*"))
 async def echo(bot, update):
 
     await add_user_to_database(bot, update)
